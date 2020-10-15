@@ -1,4 +1,9 @@
 Task 1
+
+demo
+
+https://ivkusto.github.io/ABTestTask1/
+
 ```
 npm install
 ```
@@ -11,6 +16,4 @@ build
 ```
 npm run build
 ```
-demo
 
-https://ivkusto.github.io/ABTestTask1/
