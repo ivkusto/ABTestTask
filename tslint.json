@@ -1,0 +1,16 @@
+{
+   "defaultSeverity": "error",
+   "extends": [
+      "tslint:recommended"
+   ],
+   "jsRules": {},
+   "rules": {
+      "typedef": [
+         true,
+         "parameter",
+         "member-variable-declaration"
+      ],
+      "semicolon": true
+   },
+   "rulesDirectory": []
+}
