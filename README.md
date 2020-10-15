@@ -11,3 +11,6 @@ build
 ```
 npm run build
 ```
+demo
+
+https://ivkusto.github.io/ABTestTask1/
