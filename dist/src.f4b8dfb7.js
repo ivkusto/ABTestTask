@@ -21,4 +21,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./Consts/sizes":"zjhK","./Objects/background":"wn3F","./Objects/pitchLevel":"pjNG","./Objects/rollLevel":"qlPt","./Objects/rotateCamera":"Rpq5","./Objects/axis":"PqJM"}],"QCba":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("./FlightDirector/FlightDirector"),t=require("./FlightDirector/Utils/angle");function r(){var r=document.getElementById("cvs"),i=new e.FlightDirector(r);function n(e){var r=e.target.value;this.form[this.dataset.bind].value=r,("roll"===this.dataset.type?i.setRoll:i.setPitch)(t.degreeToRad(parseInt(r,10)))}["roll-range","roll-input","pitch-range","pitch-input"].map(function(e){return document.getElementById(e)}).forEach(function(e){return e.addEventListener("input",n)})}window.addEventListener("load",r);
 },{"./FlightDirector/FlightDirector":"MpWc","./FlightDirector/Utils/angle":"mLuY"}]},{},["QCba"], null)
-//# sourceMappingURL=src.0d19da1d.js.map
+//# sourceMappingURL=src.f4b8dfb7.js.map
