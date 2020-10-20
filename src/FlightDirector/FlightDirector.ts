@@ -56,11 +56,21 @@ export class FlightDirector {
 
    setRoll = (roll: number) => {
       this._roll = roll;
-      window.requestAnimationFrame(() => this._render());
+      this._animationFrameRender();
    }
 
    setPitch = (pitch: number) => {
       this._pitch = pitch;
+      this._animationFrameRender();
+   }
+
+   setData({ roll, pitch }: { roll: number, pitch: number }) {
+      this._roll = roll;
+      this._pitch = pitch;
+      this._animationFrameRender();
+   }
+
+   private _animationFrameRender() {
       window.requestAnimationFrame(() => this._render());
    }
 

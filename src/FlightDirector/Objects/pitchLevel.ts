@@ -28,8 +28,9 @@ export function pitchLevel(ctx: CanvasRenderingContext2D, state: IState) {
       const markWidth = isBig ? bigMarkWidth : midMarkWidth;
       ctx.moveTo(-markWidth / 2, i * height * 2 / 180);
       ctx.lineTo(markWidth / 2, i * height * 2 / 180);
-      if (isBig) {
-         ctx.fillText(i.toString(), markWidth / 2 + PITCH.FONT_OFFSET * state.width, i * height * 2 / 180);
+      if (isBig || (i % 90 === 0)) {
+         const label = Math.abs(i) > 90 ? Math.sign(i) * 180 - i : i;
+         ctx.fillText(label.toString(), bigMarkWidth / 2 + PITCH.FONT_OFFSET * state.width, i * height * 2 / 180);
       }
    }
    ctx.stroke();
