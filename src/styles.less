@@ -12,9 +12,11 @@ canvas {
 
 .flex {
    display: flex;
+
    &-row {
       flex-direction: row;
    }
+
    &-column {
       flex-direction: column;
       padding-top: 10px;
@@ -27,23 +29,4 @@ input {
 
 form {
    margin-top: 10px;
-}
-
-button {
-   width: 50px;
-   height: 50px;
-}
-
-.buttons {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   width: 160px;
-   grid-column-gap: 2px;
-   grid-row-gap: 4px;
-   margin-top: 10px;
-}
-
-button#btn-up {
-   grid-column-start: 2;
-   grid-column-end: 4;
 }

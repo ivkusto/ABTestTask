@@ -1,2 +1,0 @@
-canvas{width:100%;height:100%}.panel{width:50vw;height:50vw;max-width:80vh;max-height:80vh}.flex{display:flex}.flex-row{flex-direction:row}.flex-column{flex-direction:column;padding-top:10px}input{margin-right:20px}form{margin-top:10px}button{width:50px;height:50px}.buttons{display:grid;grid-template-columns:1fr 1fr 1fr;width:160px;grid-column-gap:2px;grid-row-gap:4px;margin-top:10px}button#btn-up{grid-column-start:2;grid-column-end:4}
-/*# sourceMappingURL=styles.f776b1f3.css.map */
