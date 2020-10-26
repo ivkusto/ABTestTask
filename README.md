@@ -2,7 +2,7 @@ Task 1
 
 demo
 
-https://ivkusto.github.io/ABTestTask1/
+https://ivkusto.github.io/attitude-indicator/
 
 ```
 npm install
